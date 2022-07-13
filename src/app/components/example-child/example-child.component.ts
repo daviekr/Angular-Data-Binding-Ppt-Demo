@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-example-child',
@@ -12,6 +12,9 @@ export class ExampleChildComponent implements OnInit {
   // yourObject: any = {
   //   property: 'nice',
   // };
+
+  @Input()
+  item: string = '';
 
   isUnchanged: boolean = false;
 
