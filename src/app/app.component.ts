@@ -12,14 +12,12 @@ export class AppComponent implements OnInit {
 
   // parentVariable = 'Not Set';
 
-
   ngOnInit(): void {
     // console.log(this.parentVariable);
-
   }
 
-  setParentVarWithOutput(input: any) {
-    // this.parentVariable = input;
-    // console.log(this.parentVariable);
-  }
+  // setParentVarWithOutput(event: Event) {
+  //   this.parentVariable = (event.target as HTMLInputElement).value;
+  //   console.log(this.parentVariable);
+  // }
 }
