@@ -21,6 +21,12 @@ export class ExampleChildComponent implements OnInit {
   // @Output()
   // newItemEvent = new EventEmitter<string>();
 
+  headerLabel: string = "Attribute Binding Header"
+
+  isCool: boolean = true;
+
+  backgroundColor: string = "red";
+
   constructor() { }
 
   ngOnInit(): void {
