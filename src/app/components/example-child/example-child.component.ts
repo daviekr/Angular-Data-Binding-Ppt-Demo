@@ -13,6 +13,8 @@ export class ExampleChildComponent implements OnInit {
   //   property: 'nice',
   // };
 
+  isUnchanged: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
