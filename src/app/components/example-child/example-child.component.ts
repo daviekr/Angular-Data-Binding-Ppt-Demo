@@ -21,11 +21,11 @@ export class ExampleChildComponent implements OnInit {
   // @Output()
   // newItemEvent = new EventEmitter<string>();
 
-  headerLabel: string = "Attribute Binding Header"
+  // headerLabel: string = "Attribute Binding Header"
 
-  isCool: boolean = true;
+  // isCool: boolean = true;
 
-  backgroundColor: string = "red";
+  // backgroundColor: string = "red";
 
   constructor() { }
 
