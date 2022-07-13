@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-example-child',
@@ -13,14 +13,22 @@ export class ExampleChildComponent implements OnInit {
   //   property: 'nice',
   // };
 
-  @Input()
-  item: string = '';
+  // isUnchanged: boolean = false;
 
-  isUnchanged: boolean = false;
+  // @Input()
+  // item: string = '';
+
+  // @Output()
+  // newItemEvent = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  // addNewItem() {
+  //   console.log("ADDING NEW ITEM");
+  //   const fc = "Set";
+  //   this.newItemEvent.emit(fc);
+  // }
 }
